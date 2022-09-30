@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    align-items: center;
+    color: brown;
+    font-size: x-large;
+    font-weight: 500px;
+    margin-left: 20px;
+
+}
+.header-text{
+    margin-left: 15px;
+}
+
+.header:hover{
+    color:orangered;
+}
