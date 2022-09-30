@@ -1,4 +1,36 @@
+.exercise{
+   height: 372px;
+   width: 320px;
+   padding: 5px;
+   border-radius: 5px;
+   border: 1px solid black;
+}
 .exercise img{
-   height: 290px;
-   width: 290px;
+   height: 180px;
+   width: 270px;
+   border-radius: 5px;
+}
+.exercise-info{
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 20px;
+
+   
+}
+
+.btn-exercise{
+   background-color: blue;
+   border: none;
+   height: 30px;
+   /* width: 100%; */
+   color: white;
+   border-radius: 5px;
+   width: 100%;
+   margin:0;
+   padding: 0;
+   
+}
+.btn-exercise:hover{
+   background-color:violet;
 }

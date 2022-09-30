@@ -2,13 +2,20 @@ import React from 'react';
 import './Exercise.css'
 
 const Exercise =(props) => {
-    const {category,age,img,time} =props.exercises;
-    console.log(props.exercises.img)
+    console.log(props);
+    const {category,age,img,time} =props.exercise;
+    const {handleAddToCart}=props;
+    
     return (
         <div className='exercise'>
            <img src={img} alt=""></img>
-           <h4>{category}</h4>
-           <h4>{age}</h4>
+           <div className='exercise-info'>
+            <h3>{category}</h3>
+           <h4>For Age: {age}</h4>
+           <h4>Time required: {time}min</h4>
+           </div>
+           <button onClick={()=>handleAddToCart(props.exercise)} className='btn-exercise'>
+            Add to list</button>
         </div>
     );
 };

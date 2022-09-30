@@ -4,41 +4,41 @@
       "category": "Dumble",
       "age": "20-50",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaRh_It3jLaJxwKfx4SdLr9bq6OrGghz6LFQ&usqp=CAU",
-      "time": "30min"
+      "time": "30"
     },
     {
       "id": 2,
       "category": "Heavy-lift",
       "age": "20-50",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqbyxHerbBNltFtXf8hfjK65l5dnCHg3vNvCxsYeEs0CmAy1YSiFJUMDLrMrD11LjMCfY&usqp=CAU",
-      "time": "30min"
+      "time": "30"
     },
     {
       "id": 3,
       "category": "Strength",
       "age": "20-40",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkIw4afePS3Fm332Vl43FsCEfI58Nav622EQ&usqp=CAU",
-      "time": "30min"
+      "time": "30"
     },
     {
       "id": 4,
       "category": "Cardio",
       "age": "20-45",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTazZdDblrYFFZ_YdBgFYOf71vt4Bge-SsQzpBpgooN8dR8aEllE6jzaeoUKwcTU5bbdu8&usqp=CAU",
-      "time": "40min"
+      "time": "40"
     },
     {
       "id": 5,
       "category": "Running",
       "age": "18-40",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvU3A5ev8onCzIJ3Rbsy6Vm4NFm0enjRW5JenZDAgjjLGohMfrgDOdkmrE7WkLgyy_Yjs&usqp=CAU",
-      "time": "30min"
+      "time": "30"
     },
     {
       "id": 6,
       "category": "Pelates",
       "age": "20-50",
       "img": "https://media.distractify.com/brand-img/LNuy9mc8f/1200x628/quarantine-workout-1584682107918.jpg",
-      "time": "45min"
+      "time": "45"
     }
   ]
