@@ -8,9 +8,91 @@
     gap: 45px;
     padding-left: 10px;
 }
+.cart-container{
+    background-color:white;
+    margin: 5px;
+
+}
+.user-info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color:antiquewhite;
+    padding: 10px;
+    
+    height: 40px;
+    border-radius: 5px;
+}
+.brk-time{
+    background-color: antiquewhite;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.e-time{
+ background-color: antiquewhite;
+ height: 30px;
+ text-align: left;
+ margin: 5px;
+ border-radius: 5px;
+ 
+ 
+}
+.b-time{
+    background-color: antiquewhite;
+    height: 30px;
+    text-align:start;
+    margin: 5px;
+    
+    border-radius: 5px;
+
+}
+.e-time h5{
+    margin-left: 3px;
+    
+}
+.b-time h5{
+    margin-left: 3px;
+    
+}
+
+
+
+.brk-time button{
+    border: none;
+    border-radius: 40px;
+    padding: 8px;
+    margin: 5px;
+
+
+}
+.brk-time button:hover{
+    background-color: blueviolet;
+}
+
+.btn-actv{
+    background-color: blueviolet;
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    color:white;
+    padding: 5px;
+    margin-top: 30px;
+    width: 230px;
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+.btn-actv:hover{
+    background-color:violet;
+}
 
 @media screen and (max-width:1100px){
     .exercise-container{
         grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:950px){
+    .exercise-container{
+        grid-template-columns: repeat(1,1fr);
     }
 }
