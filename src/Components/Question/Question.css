@@ -13,3 +13,11 @@
     border-radius: 5px;
     background-color: aliceblue;
 }
+
+.q-header{
+    margin-top: 30px;
+}
+
+.question-div div:hover{
+    background-color: aquamarine;
+}
