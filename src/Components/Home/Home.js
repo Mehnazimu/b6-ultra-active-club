@@ -7,6 +7,7 @@ import './Home.css';
 const Home = () => {
     const [exercises, setExercises]= useState([]);
     const [cart, setCart]=useState([]);
+    
 
     useEffect(()=>{
         fetch('data.json')
@@ -19,6 +20,8 @@ const Home = () => {
         const newCart =[...cart,exercise];
         setCart(newCart);
     }
+
+    
     
     
     return (
@@ -30,6 +33,7 @@ const Home = () => {
                key={exercise.id}
                exercise={exercise}
                handleAddToCart={handleAddToCart}
+               
                ></Exercise>)
             }
             

@@ -1,0 +1,13 @@
+.question-div{
+    display:flex;
+    align-content: space-around;
+    margin: 20px;
+    
+ 
+}
+.question-div h3{
+    margin-left: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
