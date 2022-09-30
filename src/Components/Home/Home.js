@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Exercise from '../Exercise/Exercise';
@@ -21,6 +22,7 @@ const Home = () => {
     
     
     return (
+
         <div className='home-container'>
           <div className='exercise-container'>
            {

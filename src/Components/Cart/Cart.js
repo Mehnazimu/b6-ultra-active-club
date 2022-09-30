@@ -1,6 +1,14 @@
 import React from 'react';
+import './Cart.css';
 
 const Cart = ({cart}) => {
+
+    let totalTime=0;
+    for (const exercise of cart){
+        totalTime = totalTime+ exercise.time;
+
+    }
+
     return (
         <div>
              <h3>Mehnaz</h3>
@@ -27,10 +35,10 @@ const Cart = ({cart}) => {
                 <div>
                     <h4>Exercise Details</h4>
                     <div className='e-time'>
-                        <h5>Exercise time:</h5>
+                        <h5 className='e-text'>Exercise time: {totalTime} min.</h5>
                     </div>
                     <div className='b-time'>
-                        <h5>Break time:</h5>
+                        <h5 className='b-text'>Break time:</h5>
                     </div>
                     
                 </div>

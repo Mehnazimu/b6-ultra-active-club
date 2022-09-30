@@ -37,6 +37,15 @@
  
  
 }
+.e-text{
+    font-size: medium;
+   padding: 2px;
+}
+.b-text{
+    font-size: medium;
+    padding: 2px;
+
+}
 .b-time{
     background-color: antiquewhite;
     height: 30px;
@@ -46,10 +55,8 @@
     border-radius: 5px;
 
 }
-.e-time h5{
-    margin-left: 3px;
-    
-}
+
+
 .b-time h5{
     margin-left: 3px;
     

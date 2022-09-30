@@ -2,7 +2,7 @@ import React from 'react';
 import './Exercise.css'
 
 const Exercise =(props) => {
-    console.log(props);
+    // console.log(props);
     const {category,age,img,time} =props.exercise;
     const {handleAddToCart}=props;
     
