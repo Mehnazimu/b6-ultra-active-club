@@ -1,3 +1,4 @@
+import { ToastContainer, toast } from 'react-toastify';
 import React from 'react';
 import './Cart.css';
 
@@ -12,7 +13,7 @@ const Cart = ({cart}) => {
     
 
     const activityCompleted=()=>{
-        console.log('actv')
+        toast("Wow Completed!!!");
     }
     return (
         <div>
@@ -47,8 +48,11 @@ const Cart = ({cart}) => {
                     </div>
                     
                 </div>
+                <div>
                 <button onClick={activityCompleted} className='btn-actv'>Activity Completed</button>
-                <p>Selected Items:{cart.length}</p>
+                <ToastContainer/>
+                </div>
+                
 
             
         </div>
